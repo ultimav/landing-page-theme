@@ -6,11 +6,10 @@ url: http://www.scritchy.org
 title: Dana Cleveland - ScrtichyLabs
 email: dana@scritchy.org
 author: Dana Cleveland
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
-copyright: 'Copyright &copy; 2018 Dana Cleveland/ ScritcyLabs. All Rights Reserved.'
+description: > # "Person website and landing page of Dana Cleveland.
+  Contains information of a 25+ polygot developer and SysAdmin. 
+  Well versed on DevOps, agile, Cloud programming and day 2 management. 
+copyright: 'Copyright &copy; 2018 Dana Cleveland/ScritcyLabs. All Rights Reserved.'
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
 # ----------------------- #
@@ -29,6 +28,6 @@ social:
   - title: twitter
     url: https://twitter.com/ultimav
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://github.com/ultimav
   - title: linkedin
-    url: 
+    url: https://www.linkedin.com/in/danacleveland
