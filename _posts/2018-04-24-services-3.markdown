@@ -2,7 +2,8 @@
 layout: default
 img: cv.png
 category: Services
-title: What I offer
+title: What I have to offer
 description: |
----
-For a copy of my [resume](https://www.visualcv.com/dana-cleveland), and how I may compliment a team.
+--
+Mobbing, Pairing, solo - collaborate and listen.
+For a copy of my [resume](https://www.visualcv.com/dana-cleveland), to learn what i can do and how I compliment team to solve gnarly problems.
