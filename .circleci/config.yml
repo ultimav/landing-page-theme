@@ -45,5 +45,5 @@ jobs:
           name: Deploy to website
           command: |
             ssh $DEPLOY_REMOTE rm -r /var/www/html/
-            scp -r ~/repo/_site/* $DEPLOY_REMOTE:/var/www/html/	
+            scp -r -P $DEPLOY_REMOTE_PORT ~/repo/_site/* $DEPLOY_REMOTE:/var/www/html/	
 
