@@ -45,6 +45,6 @@ jobs:
           name: Deploy to website
           command: |
             #ssh-keyscan $DEPLOY_REMOTE
-            ssh -o StrictHostKeyChecking=accept-new -p$DEPLOY_REMOTE_PORT $DEPLOY_REMOTE rm -r /var/www/html/
+            ssh -o StrictHostKeyChecking=no -p$DEPLOY_REMOTE_PORT $DEPLOY_REMOTE rm -r /var/www/html/
             scp -r -P $DEPLOY_REMOTE_PORT ~/repo/_site/* $DEPLOY_REMOTE:/var/www/html/	
 
