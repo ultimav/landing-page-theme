@@ -44,6 +44,7 @@ jobs:
       - deploy:     
           name: Deploy to website
           command: |
+	    ssh-keyscan $DEPLOY_REMOTE
             ssh -p$DEPLOY_REMOTE_PORT $DEPLOY_REMOTE rm -r /var/www/html/
             scp -r -P $DEPLOY_REMOTE_PORT ~/repo/_site/* $DEPLOY_REMOTE:/var/www/html/	
 
